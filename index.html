@@ -5,7 +5,7 @@
   <style>
     :root {
       --bg:#023047;
-      --card: rgba(12,24,48,9.85); <!-- what does this do?? --> 
+      --card: rgba(12,24,48,9.85); 
       --accent: #8ECAE6;
       --accent-2: #219EBC;
       --accent-3: #FFB703;
@@ -14,12 +14,17 @@
       --text: #e8f0ff;
       --muted: #8ba3c7;
       --line: rgba(100,160,255,0.15);
-      --nav-w:210pnl
+      --nav-w:210 px;
     }
     *,*::before, *::after {box-sizing:boarder-box; margin: 0; paddin: 0; }
     html { scroll-behavior: smooth; }
     body {
       font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+      display: flex;
     }
   </style>
 </head>
